@@ -32,44 +32,44 @@ include:
     snippet: zmk-usb-logging
     artifact-name: apiaster-rp2040-logging
   - board: xiao_ble
-    shield: apiaster_wired rgbled_adapter
+    shield: apiaster_wired
     artifact-name: apiaster-xiao-ble
   - board: xiao_ble
-    shield: apiaster_wired rgbled_adapter
+    shield: apiaster_wired
     artifact-name: apiaster-xiao-ble-studio
   - board: xiao_ble
-    shield: apiaster_left rgbled_adapter
+    shield: apiaster_left
     artifact-name: apiaster-left-xiao-ble
   - board: xiao_ble
-    shield: apiaster_left rgbled_adapter
+    shield: apiaster_left
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
     artifact-name: apiaster-left-xiao-ble-studio
   - board: xiao_ble
-    shield: apiaster_right rgbled_adapter
+    shield: apiaster_right
     artifact-name: apiaster-right-xiao-ble
   - board: xiao_ble
-    shield: apiaster_left rgbled_adapter
+    shield: apiaster_left
     snippet: zmk-usb-logging
     artifact-name: apiaster-left-xiao-ble-logging
   - board: xiao_ble
-    shield: apiaster_right rgbled_adapter
+    shield: apiaster_right
     snippet: zmk-usb-logging
     artifact-name: apiaster-right-xiao-ble-logging
   - board: xiao_ble
-    shield: apiaster_left rgbled_adapter
+    shield: apiaster_left
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
     artifact-name: apiaster-left-xiao-ble-with-dongle
   - board: xiao_ble
-    shield: apiaster_dongle rgbled_adapter
+    shield: apiaster_dongle
     artifact-name: apiaster-dongle-xiao-ble
   - board: xiao_ble
-    shield: apiaster_dongle rgbled_adapter
+    shield: apiaster_dongle
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
     artifact-name: apiaster-dongle-xiao-ble-studio
   - board: xiao_ble
-    shield: apiaster_dongle rgbled_adapter
+    shield: apiaster_dongle
     snippet: zmk-usb-logging
     artifact-name: apiaster-dongle-xiao-ble-logging
   - board: xiao_ble
